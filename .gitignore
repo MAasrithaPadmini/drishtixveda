@@ -1,0 +1,20 @@
+venv/
+env/
+__pycache__/
+*.pyc
+serviceAccountKey.json
+.env
+*.zip
+*.save
+*.save.*
+app.py.save*
+cron_update.py.save*
+tapi*
+python
+models (1).zip
+global_return_model.zip
+backend.zip
+cron.log
+.app.py.swp
+models_backup/
+env

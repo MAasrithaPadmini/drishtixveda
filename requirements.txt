@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+darts
+torch
+pytorch-lightning
+pandas
+numpy
+scikit-learn==1.6.1
+joblib
+requests
+python-dotenv

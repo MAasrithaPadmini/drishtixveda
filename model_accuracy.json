@@ -1,0 +1,51 @@
+{
+    "1": {
+        "MAPE (%)": 6.57,
+        "Accuracy (%)": 93.43,
+        "Interval Accuracy \u00b15% (%)": 0.0,
+        "Trend Accuracy (%)": 100.0,
+        "Directional Hit Rate (%)": null
+    },
+    "7": {
+        "MAPE (%)": 21.84,
+        "Accuracy (%)": 78.16,
+        "Interval Accuracy \u00b15% (%)": 14.29,
+        "Trend Accuracy (%)": 100.0,
+        "Directional Hit Rate (%)": 0.0
+    },
+    "30": {
+        "MAPE (%)": 20.23,
+        "Accuracy (%)": 79.77,
+        "Interval Accuracy \u00b15% (%)": 3.33,
+        "Trend Accuracy (%)": 0.0,
+        "Directional Hit Rate (%)": 34.48
+    },
+    "60": {
+        "MAPE (%)": 18.62,
+        "Accuracy (%)": 81.38,
+        "Interval Accuracy \u00b15% (%)": 13.33,
+        "Trend Accuracy (%)": 100.0,
+        "Directional Hit Rate (%)": 35.59
+    },
+    "90": {
+        "MAPE (%)": 16.35,
+        "Accuracy (%)": 83.65,
+        "Interval Accuracy \u00b15% (%)": 17.78,
+        "Trend Accuracy (%)": 0.0,
+        "Directional Hit Rate (%)": 61.8
+    },
+    "180": {
+        "MAPE (%)": 15.6,
+        "Accuracy (%)": 84.4,
+        "Interval Accuracy \u00b15% (%)": 20.0,
+        "Trend Accuracy (%)": 0.0,
+        "Directional Hit Rate (%)": 54.75
+    },
+    "365": {
+        "MAPE (%)": 14.97,
+        "Accuracy (%)": 85.03,
+        "Interval Accuracy \u00b15% (%)": 22.19,
+        "Trend Accuracy (%)": 0.0,
+        "Directional Hit Rate (%)": 54.12
+    }
+}
