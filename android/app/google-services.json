@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "586026468938",
+    "project_id": "drishtixveda",
+    "storage_bucket": "drishtixveda.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586026468938:android:c8d77cfe18a9038ddf08b3",
+        "android_client_info": {
+          "package_name": "com.drishtixveda.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_dD13OKHHTvrEWnwKGQHV5QBa6IckwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586026468938:android:8eaa301ecbbd61b0df08b3",
+        "android_client_info": {
+          "package_name": "com.example.drishtixveda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_dD13OKHHTvrEWnwKGQHV5QBa6IckwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586026468938:android:fcfe0b296589ee46df08b3",
+        "android_client_info": {
+          "package_name": "com.example.drishtixveda_web"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_dD13OKHHTvrEWnwKGQHV5QBa6IckwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
