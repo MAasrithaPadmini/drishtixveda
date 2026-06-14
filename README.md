@@ -162,4 +162,36 @@ flutter run
 
 ---
 
+## Engineering Decisions
+
+### Why portfolio OCR instead of direct Zerodha multi-user login
+
+The original design allowed users to connect their own Zerodha accounts directly 
+through Kite Connect OAuth — so the app could fetch their live portfolio holdings 
+automatically.
+
+In March 2026, Zerodha rejected the multi-user access request. Their policy requires 
+a SEBI Research Analyst (RA) licence for platforms serving multiple retail users 
+through a single Kite Connect app. As a student without an RA licence, that path 
+was closed.
+
+Instead of dropping the portfolio feature, I built OCR-based portfolio scanning.
+Users screenshot their holdings from any broker app — Zerodha, Groww, Upstox, 
+Angel One — and upload it. Tesseract extracts ticker symbols automatically via 
+OpenCV preprocessing, validates them against the full NSE/BSE instrument list, 
+and runs TFT predictions on every detected stock in one shot.
+
+The result is broker-agnostic. No OAuth dependency, no licence requirement, 
+works with any Indian broker app.
+
+### Why async news calls after the presentation crash
+
+During the final year project presentation, a news API integration added the 
+night before caused the entire FastAPI server to crash under load. The news 
+feed was making synchronous HTTP calls on the main prediction thread — when 
+the external API timed out, it blocked and killed the server.
+
+Fixed by moving all external API calls to async background tasks. A failed 
+news request now never touches the prediction pipeline.
+
 Built by [Aasritha Padmini](https://github.com/MAasrithaPadmini) — final year project turned live product.
